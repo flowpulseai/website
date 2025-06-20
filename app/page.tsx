@@ -19,7 +19,7 @@ export default function HomePage() {
             <Brain className="h-8 w-8 text-blue-600" />
             <span className="text-xl font-bold">Flow Pulse</span>
           </div>
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="flex items-center gap-6">
             <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
               {t("services")}
             </a>
@@ -232,11 +232,11 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-blue-600" />
-                  <span>contact@flowpulse.com</span>
+                  <span>flowpulseai@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-blue-600" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+34 625 98 82 58</span>
                 </div>
               </div>
             </div>
@@ -306,7 +306,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Flow Pulse. {t("allRightsReserved")}</p>
+            <p>&copy; 2025 Flow Pulse. {t("allRightsReserved")}</p>
           </div>
         </div>
       </footer>
